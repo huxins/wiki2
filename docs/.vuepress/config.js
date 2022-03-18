@@ -1,5 +1,6 @@
 const nav = require('./config/nav')
 
+const software = require('./config/software')
 const node = require('./config/node')
 
 module.exports = {
@@ -16,6 +17,7 @@ module.exports = {
     sidebarDepth: 2,
     nav: nav.nav,
     sidebar:{
+      '/software/': software.software,
       '/node/environment/': node.node_environment,
       '/node/application/': node.node_application
     }

@@ -1,5 +1,9 @@
 const nav = [
   {
+    text: 'Software',
+    link: '/software/'
+  },
+  {
     text: 'Node',
     items: [
       {
