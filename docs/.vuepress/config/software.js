@@ -1,5 +1,6 @@
 const software = [
-  '/software/File'
+  '/software/File',
+  '/software/System'
 ]
 
 
