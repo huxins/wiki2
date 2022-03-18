@@ -14,3 +14,15 @@ XKE62QZA7YH97CBBA5V7V53MC6XC89N6
 4YA4DWA2TZ4VU8VT8S3R89W6HBKG3J42
 ```
 
+## FastStone Capture
+
+```
+name: bluman
+serial: VPISCJULXUFGDDXYAUYF
+```
+
+## 参考链接
+
+- [天若OCR文字识别开源版V5.0.0](https://www.52pojie.cn/thread-876331-1-1.html)
+- [AnyListen/tianruoocr](https://github.com/AnyListen/tianruoocr)
+
