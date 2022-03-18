@@ -1,0 +1,40 @@
+name: Wiki Build and Deploy
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        persist-credentials: false
+
+    - name: Cache Node Dependencies
+      id: cache
+      uses: actions/cache@v1
+      with:
+        path: node_modules
+        key: ${{ runner.os }}-npm-caches-${{ hashFiles('package.json') }}
+
+    - name: Install Dependencies
+      if: steps.cache.outputs.cache-hit != 'true'
+      run: npm install
+
+    - name: Build
+      run: |
+        npm run docs:build
+
+    - name: Deploy
+      run: |
+        git config --global user.name "huxins"
+        git config --global user.email "huxins@163.com"
+        cd docs/.vuepress/dist
+        echo "wiki.inxiny.cn" > CNAME
+        git init
+        git add -A
+        git commit -m "first commit"
+        git push -f ${{ secrets.git }} master:gh-pages
