@@ -64,6 +64,8 @@ https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20210616/wrr/wrar602sc.ex
 https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20210616/wrr/winrar-x64-602sc.exe
 https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20220127/wrr/winrar-x32-610sc.exe
 https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20220127/wrr/winrar-x64-610sc.exe
+https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20220317/wrr/winrar-x32-611sc.exe
+https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20220317/wrr/winrar-x64-611sc.exe
 ```
 
 - 零售版
@@ -83,6 +85,8 @@ https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20210616/rrlb/wrar602sc.e
 https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20210616/rrlb/winrar-x64-602sc.exe
 https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20220127/rrlb/winrar-x32-610sc.exe
 https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20220127/rrlb/winrar-x64-610sc.exe
+https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20220317/rrlb/winrar-x32-611sc.exe
+https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20220317/rrlb/winrar-x64-611sc.exe
 ```
 
 ## 参考链接
