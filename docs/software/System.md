@@ -21,6 +21,13 @@ name: bluman
 serial: VPISCJULXUFGDDXYAUYF
 ```
 
+## Office Tab
+
+```
+License Name: yuzaixing-1
+License Code: 000015-VFAADT-W78ANV-0P0XEM-U9VYPT-J57PFR-R2P8P7-VV54VG-B20VEE-43ZC63
+```
+
 ## 参考链接
 
 - [天若OCR文字识别开源版V5.0.0](https://www.52pojie.cn/thread-876331-1-1.html)
