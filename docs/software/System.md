@@ -28,6 +28,12 @@ License Name: yuzaixing-1
 License Code: 000015-VFAADT-W78ANV-0P0XEM-U9VYPT-J57PFR-R2P8P7-VV54VG-B20VEE-43ZC63
 ```
 
+## DisplayFusion
+
+```
+101-02-YRTUDA9686-BBRGNC1B9C-zyd03mTZJQdsD0TfzXmsrap7Eo9PMEW8i6y8lJWE7pjk3aGYqXawdYmtcSXwU/xEw48EZid3aJMM0Ti8uFzypxiFsc1v7nfAnVE850nADHxr0zFo3p/QM96mWJCJQor5WUqc3SC0emHJszJI7GDw5i+2eMAfWlTnBTav+8bmPtDuDFvVz2lqwmWTSYb8qI2L
+```
+
 ## 参考链接
 
 - [天若OCR文字识别开源版V5.0.0](https://www.52pojie.cn/thread-876331-1-1.html)
