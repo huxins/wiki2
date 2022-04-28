@@ -21,7 +21,7 @@ module.exports = {
       '/software/': software.software,
       '/node/environment/': node.node_environment,
       '/node/application/': node.node_application,
-      '/数据归档/浏览器数据/': 数据归档.浏览器数据
+      '/数据归档/': 数据归档
     }
   }
 };
