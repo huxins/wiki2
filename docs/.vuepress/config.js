@@ -1,5 +1,6 @@
 const nav = require('./config/nav')
 
+const 数据归档 = require('./config/数据归档')
 const software = require('./config/software')
 const node = require('./config/node')
 
@@ -19,7 +20,8 @@ module.exports = {
     sidebar:{
       '/software/': software.software,
       '/node/environment/': node.node_environment,
-      '/node/application/': node.node_application
+      '/node/application/': node.node_application,
+      '/数据归档/浏览器数据/': 数据归档.浏览器数据
     }
   }
 };
