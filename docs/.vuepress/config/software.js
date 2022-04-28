@@ -1,5 +1,4 @@
 const software = [
-  '/software/File',
   '/software/System',
   '/software/Charles'
 ]
