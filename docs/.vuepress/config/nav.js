@@ -1,11 +1,16 @@
 const nav = [
   {
-    text: 'Software',
-    link: '/software/'
-  },
-  {
     text: '数据归档',
     link: '/数据归档/'
+  },
+  {
+    text: '计算机网络',
+    items: [
+      {
+        text: '代理服务器',
+        link: '/计算机网络/代理服务器/'
+      }
+    ]
   },
   {
     text: 'Node',

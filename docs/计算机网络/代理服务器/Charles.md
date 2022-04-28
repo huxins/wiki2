@@ -1,10 +1,5 @@
 # Charles
 
-```
-name: leanway
-serial: 5DB2CCAE8B2D08B06F
-```
-
 ## 功能
 
 ### 过滤
