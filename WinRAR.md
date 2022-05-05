@@ -56,6 +56,5 @@ https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20220317/rrlb/winrar-x64-
 
 ## 参考链接
 
-- [Parchive](https://parchive.github.io/)
 - [msl4437/WinRAR](https://github.com/msl4437/WinRAR)
 
