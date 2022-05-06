@@ -1,5 +1,14 @@
 const nav = [
   {
+    text: 'Mix',
+    items: [
+      {
+        text: 'CMS',
+        link: '/mix/cms/'
+      }
+    ]
+  },
+  {
     text: 'Network',
     items: [
       {
