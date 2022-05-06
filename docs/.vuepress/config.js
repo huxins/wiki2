@@ -17,8 +17,8 @@ module.exports = {
     sidebarDepth: 2,
     nav: nav.nav,
     sidebar:{
-      '/Network/Proxy/': network.proxy,
-      '/Node/Environment/': node.environment
+      '/network/proxy/': network.proxy,
+      '/node/environment/': node.environment
     }
   }
 };

@@ -1,6 +1,6 @@
 const environment = [
-    '/Node/Environment/NPM',
-    '/Node/Environment/Yarn'
+    '/node/environment/npm',
+    '/node/environment/yarn'
 ]
 
 module.exports = {

@@ -4,7 +4,7 @@ const nav = [
     items: [
       {
         text: 'Proxy',
-        link: '/Network/Proxy/'
+        link: '/network/proxy/'
       }
     ]
   },
@@ -13,7 +13,7 @@ const nav = [
     items: [
       {
         text: 'Environment',
-        link: '/Node/Environment/'
+        link: '/node/environment/'
       }
     ]
   },

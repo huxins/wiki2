@@ -1,5 +1,5 @@
 const proxy = [
-  '/Network/Proxy/Charles'
+  '/network/proxy/charles'
 ]
 
 module.exports = {
