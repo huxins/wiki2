@@ -21,7 +21,7 @@ module.exports = {
     sidebar:{
       '/mix/cms/': mix.cms,
       '/network/proxy/': network.proxy,
-      '/java/jdk/': node.environment,
+      '/java/jdk/': java.jdk,
       '/node/environment/': node.environment
     }
   }
