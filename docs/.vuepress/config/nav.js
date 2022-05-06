@@ -18,6 +18,15 @@ const nav = [
     ]
   },
   {
+    text: 'Java',
+    items: [
+      {
+        text: 'JDK',
+        link: '/java/jdk/'
+      }
+    ]
+  },
+  {
     text: 'Node',
     items: [
       {
