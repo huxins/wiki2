@@ -2,6 +2,7 @@ const nav = require('./config/nav')
 
 const mix = require('./config/mix')
 const network = require('./config/network')
+const java = require('./config/java')
 const node = require('./config/node')
 
 module.exports = {
@@ -20,6 +21,7 @@ module.exports = {
     sidebar:{
       '/mix/cms/': mix.cms,
       '/network/proxy/': network.proxy,
+      '/java/jdk/': node.environment,
       '/node/environment/': node.environment
     }
   }
