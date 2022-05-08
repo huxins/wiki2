@@ -1,5 +1,5 @@
 const maven = [
-    '/tools/maven/maven-setup',
+    '/tools/maven/maven-environment-setup',
     '/tools/maven/maven-pom',
     '/tools/maven/maven-build-lifecycle'
 ]

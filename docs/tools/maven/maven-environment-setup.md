@@ -1,6 +1,6 @@
-# Maven 环境配置
+# Maven Environment Setup
 
-## 约定配置
+## Convention Over Configuration
 
 Maven 使用约定优于配置的原则，它要求在没有定制之前，所有的项目都有如下的结构：
 
