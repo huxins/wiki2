@@ -1,6 +1,6 @@
 const nav = require('./config/nav')
 
-const mix = require('./config/mix')
+const tools = require('./config/tools')
 const network = require('./config/network')
 const java = require('./config/java')
 const node = require('./config/node')
@@ -19,7 +19,8 @@ module.exports = {
     sidebarDepth: 2,
     nav: nav.nav,
     sidebar:{
-      '/mix/cms/': mix.cms,
+      '/tools/maven/': tools.maven,
+      '/tools/cms/': tools.cms,
       '/network/proxy/': network.proxy,
       '/java/jdk/': java.jdk,
       '/node/environment/': node.environment

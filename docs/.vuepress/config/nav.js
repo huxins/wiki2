@@ -1,10 +1,14 @@
 const nav = [
   {
-    text: 'Mix',
+    text: 'Tools',
     items: [
       {
+        text: 'Maven',
+        link: '/tools/maven/'
+      },
+      {
         text: 'CMS',
-        link: '/mix/cms/'
+        link: '/tools/cms/'
       }
     ]
   },
