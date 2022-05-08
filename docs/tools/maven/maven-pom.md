@@ -33,6 +33,8 @@ $ mvn help:effective-pom
 
 ## Reference
 
-- [POM](https://maven.apache.org/pom.html)
+- [Introduction to the POM](https://maven.apache.org/guides/introduction/introduction-to-the-pom.html)
+- [POM Reference](https://maven.apache.org/pom.html)
+- [the Maven project descriptor](https://maven.apache.org/ref/3.8.5/maven-model/maven.html)
 - [Super POM](https://maven.apache.org/ref/3.5.4/maven-model-builder/super-pom.html)
 
