@@ -4,7 +4,9 @@ const maven = [
     '/tools/maven/maven-build-lifecycle',
     '/tools/maven/maven-build-profiles',
     '/tools/maven/maven-settings',
-    '/tools/maven/maven-plugins'
+    '/tools/maven/maven-plugins',
+    '/tools/maven/maven-resources',
+    '/tools/maven/maven-properties'
 ]
 
 const cms = [

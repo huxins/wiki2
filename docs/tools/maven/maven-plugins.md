@@ -46,4 +46,6 @@ maven-compiler-plugin 的 \<compilerArguments> 在版本 3.1 中废弃。
 - [Guide to Configuring Plug-ins](https://maven.apache.org/guides/mini/guide-configuring-plugins.html)
 - [difference between executions and configurations](https://stackoverflow.com/questions/33908315/what-is-the-difference-between-executions-and-configurations-in-a-maven-plugin)
 - [Java 开发基础工具的使用—编译与构建](http://liufor.com/2016/05/30/java-basics-compiler-and-build/)
+- [Skipping Tests](https://maven.apache.org/surefire/maven-surefire-plugin/examples/skipping-tests.html)
+- [Maven skip tests](https://stackoverflow.com/questions/24727536/maven-skip-tests)
 
