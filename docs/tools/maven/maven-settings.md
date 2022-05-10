@@ -1,6 +1,6 @@
 # Maven Settings
 
-## mirror
+## Mirrors
 
 ```xml
 <mirrors>

@@ -4,23 +4,23 @@
 
 此页面提取了一些经典值：
 
-- ${project.basedir}
+- `${project.basedir}`
   - 包含 pom.xml 文件的目录。
-- ${project.version}
+- `${project.version}`
   - 项目版本。
-- ${project.build.directory}
+- `${project.build.directory}`
   - 默认情况下，这表示 `target` 文件夹。
-- ${project.build.outputDirectory}
+- `${project.build.outputDirectory}`
   - 默认情况下，这表示 `target/classes` 文件夹。
-- ${project.build.testOutputDirectory}
+- `${project.build.testOutputDirectory}`
   - 默认情况下，这表示 `target/test-classes` 文件夹。
-- ${project.build.sourceDirectory}
+- `${project.build.sourceDirectory}`
   - 默认情况下，这表示 `src/main/java` 文件夹。
-- ${project.build.testSourceDirectory}
+- `${project.build.testSourceDirectory}`
   - 默认情况下，这表示 `src/test/java` 文件夹。
-- ${project.build.finalName}
+- `${project.build.finalName}`
   - 默认定义为 `${project.artifactId}-${project.version}`。
-- ${settings.localRepository}
+- `${settings.localRepository}`
   - 它引用本地存储库的位置，默认为 `${user.home}/.m2/repository`。
 
 ## Reference
