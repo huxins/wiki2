@@ -59,5 +59,4 @@ maven-compiler-plugin 的 \<compilerArguments> 在版本 3.1 中废弃。
 - [Skipping Tests](https://maven.apache.org/surefire/maven-surefire-plugin/examples/skipping-tests.html)
 - [Maven skip tests](https://stackoverflow.com/questions/24727536/maven-skip-tests)
 - [maven-site-plugin 3.3 ClassNotFoundException](https://stackoverflow.com/questions/51091539/maven-site-plugins-3-3-java-lang-classnotfoundexception-org-apache-maven-doxia)
-- [maven-invoker-plugin](https://maven.apache.org/plugins/maven-invoker-plugin/)
 
