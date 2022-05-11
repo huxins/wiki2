@@ -40,6 +40,16 @@ maven-compiler-plugin 的 \<compilerArguments> 在版本 3.1 中废弃。
 </compilerArguments>
 ```
 
+## Site
+
+```xml
+<plugin>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-project-info-reports-plugin</artifactId>
+  <version>2.9</version>
+</plugin>
+```
+
 ## Reference
 
 - [Available Plugins](https://maven.apache.org/plugins/index.html)
@@ -48,4 +58,6 @@ maven-compiler-plugin 的 \<compilerArguments> 在版本 3.1 中废弃。
 - [Java 开发基础工具的使用—编译与构建](http://liufor.com/2016/05/30/java-basics-compiler-and-build/)
 - [Skipping Tests](https://maven.apache.org/surefire/maven-surefire-plugin/examples/skipping-tests.html)
 - [Maven skip tests](https://stackoverflow.com/questions/24727536/maven-skip-tests)
+- [maven-site-plugin 3.3 ClassNotFoundException](https://stackoverflow.com/questions/51091539/maven-site-plugins-3-3-java-lang-classnotfoundexception-org-apache-maven-doxia)
+- [maven-invoker-plugin](https://maven.apache.org/plugins/maven-invoker-plugin/)
 

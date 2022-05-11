@@ -7,7 +7,9 @@ const maven = [
     '/tools/maven/maven-plugins',
     '/tools/maven/maven-resources',
     '/tools/maven/maven-properties',
-    '/tools/maven/maven-archetypes'
+    '/tools/maven/maven-dependencies',
+    '/tools/maven/maven-archetypes',
+    '/tools/maven/maven-dependencies'
 ]
 
 const cms = [
