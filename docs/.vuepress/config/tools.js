@@ -11,11 +11,18 @@ const maven = [
     '/tools/maven/maven-archetypes'
 ]
 
-const cms = [
-    '/tools/cms/vuepress'
+const postgresql = [
+    '/tools/postgresql/postgresql-install'
+]
+
+const util = [
+    '/tools/util/vuepress',
+    '/tools/util/auto-proxy',
+    '/tools/util/charles'
 ]
 
 module.exports = {
     maven,
-    cms
+    postgresql,
+    util
 }

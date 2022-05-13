@@ -1,5 +1,14 @@
 const nav = [
   {
+    text: 'Dev',
+    items: [
+      {
+        text: 'Alibaba Cloud',
+        link: '/dev/aliyun/'
+      }
+    ]
+  },
+  {
     text: 'Tools',
     items: [
       {
@@ -7,17 +16,12 @@ const nav = [
         link: '/tools/maven/'
       },
       {
-        text: 'CMS',
-        link: '/tools/cms/'
-      }
-    ]
-  },
-  {
-    text: 'Network',
-    items: [
+        text: 'PostgreSQL',
+        link: '/tools/postgresql/'
+      },
       {
-        text: 'Proxy',
-        link: '/network/proxy/'
+        text: 'Util',
+        link: '/tools/util/'
       }
     ]
   },
