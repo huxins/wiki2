@@ -24,6 +24,7 @@ module.exports = {
       '/tools/postgresql/': tools.postgresql,
       '/tools/util/': tools.util,
       '/java/jdk/': java.jdk,
+      '/java/servlet/': java.servlet,
       '/node/environment/': node.environment
     }
   }

@@ -31,6 +31,10 @@ const nav = [
       {
         text: 'JDK',
         link: '/java/jdk/'
+      },
+      {
+        text: 'Servlet',
+        link: '/java/servlet/'
       }
     ]
   },
