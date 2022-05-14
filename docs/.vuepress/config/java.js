@@ -5,9 +5,9 @@ const jdk = [
 const servlet = [
     '/java/servlet/servlet-specification',
     '/java/servlet/servlet-startup',
+    '/java/servlet/filter-startup',
     '/java/servlet/http-servlet-request',
-    '/java/servlet/http-servlet-response',
-    '/java/servlet/filter-startup'
+    '/java/servlet/http-servlet-response'
 ]
 
 module.exports = {
