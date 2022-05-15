@@ -84,3 +84,7 @@ this.getServletContext().getMimeType("test.jpg");
 this.getServletContext().getResourceAsStream("/WEB-INF/classes/test.jpg");
 ```
 
+## Reference
+
+- [Difference between `/` and `/*` in servlet mapping url pattern](https://stackoverflow.com/questions/4140448/difference-between-and-in-servlet-mapping-url-pattern)
+

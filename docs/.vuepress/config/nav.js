@@ -1,14 +1,5 @@
 const nav = [
   {
-    text: 'Dev',
-    items: [
-      {
-        text: 'Alibaba Cloud',
-        link: '/dev/aliyun/'
-      }
-    ]
-  },
-  {
     text: 'Tools',
     items: [
       {
