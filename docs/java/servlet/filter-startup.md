@@ -42,7 +42,7 @@
 </filter-mapping>
 ```
 
-获取 Servlet 初始化参数。
+获取 Filter 初始化参数。
 
 ```java
 filterConfig.getInitParameter("name");

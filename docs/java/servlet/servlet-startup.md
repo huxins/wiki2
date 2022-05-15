@@ -13,22 +13,15 @@
 - 在 web.xml 文件中进行配置。
 
 ```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns="http://java.sun.com/xml/ns/javaee"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
-         metadata-complete="true"
-         version="3.0">
-    <servlet>
-        <servlet-name>WebServlet</servlet-name>
-        <servlet-class>cn.inxiny.controller.ApplicationController</servlet-class>
-        <load-on-startup>1</load-on-startup>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>WebServlet</servlet-name>
-        <url-pattern>/</url-pattern>
-    </servlet-mapping>
-</web-app>
+<servlet>
+    <servlet-name>WebServlet</servlet-name>
+    <servlet-class>cn.inxiny.controller.ApplicationController</servlet-class>
+    <load-on-startup>1</load-on-startup>
+</servlet>
+<servlet-mapping>
+    <servlet-name>WebServlet</servlet-name>
+    <url-pattern>/</url-pattern>
+</servlet-mapping>
 ```
 
 ## ServletConfig
