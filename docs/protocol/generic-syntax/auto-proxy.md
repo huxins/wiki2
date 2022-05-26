@@ -18,9 +18,8 @@
   - 注释。
 
 
-## Reference
+## References
 
 - [AutoProxy 代理规则简单写法](https://mydf.github.io/blog/autoproxy/)
 - [AutoProxy 规则](https://www.cnblogs.com/dieangel/p/3783083.html)
-- [How to write filters](https://help.eyeo.com/en/adblockplus/how-to-write-filters)
 

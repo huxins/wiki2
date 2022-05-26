@@ -17,7 +17,6 @@ const postgresql = [
 
 const util = [
     '/tools/util/vuepress',
-    '/tools/util/auto-proxy',
     '/tools/util/charles'
 ]
 

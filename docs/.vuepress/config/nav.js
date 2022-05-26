@@ -20,6 +20,10 @@ const nav = [
     text: 'Protocol',
     items: [
       {
+        text: 'Generic Syntax',
+        link: '/protocol/generic-syntax/'
+      },
+      {
         text: 'HTTP',
         link: '/protocol/http/'
       }

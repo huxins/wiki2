@@ -22,6 +22,7 @@ module.exports = {
       '/tools/maven/': tools.maven,
       '/tools/postgresql/': tools.postgresql,
       '/tools/util/': tools.util,
+      '/protocol/generic-syntax/': protocol.generic_syntax,
       '/protocol/http/': protocol.http,
       '/java/jdk/': java.jdk,
       '/java/servlet/': java.servlet,

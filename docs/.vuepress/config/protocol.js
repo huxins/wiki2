@@ -1,3 +1,8 @@
+const generic_syntax = [
+    '/protocol/generic-syntax/uri',
+    '/protocol/generic-syntax/auto-proxy'
+]
+
 const http = [
     '/protocol/http/http-specifications',
     '/protocol/http/http-message',
@@ -7,5 +12,6 @@ const http = [
 ]
 
 module.exports = {
+    generic_syntax,
     http
 }
