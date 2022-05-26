@@ -8,7 +8,8 @@ const http = [
     '/protocol/http/http-message',
     '/protocol/http/http-connections',
     '/protocol/http/http-headers',
-    '/protocol/http/http-cookies'
+    '/protocol/http/http-cookies',
+    '/protocol/http/http-status-code'
 ]
 
 module.exports = {
