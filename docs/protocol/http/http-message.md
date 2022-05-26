@@ -1,6 +1,6 @@
 # HTTP Message
 
-用于 HTTP 协议交互的信息被称为 HTTP 报文。请求端（客户端）的 HTTP 报文叫做请求报文，响应端（服务器端）的叫做响应报文。HTTP 报文本身是由多行（用 CR+LF 作换行符）数据构成的字符串文本。
+用于 HTTP 协议交互的信息被称为 HTTP 报文。请求端的 HTTP 报文叫做请求报文，响应端的叫做响应报文。HTTP 报文本身是由多行（用 CR+LF 作换行符）数据构成的字符串文本。
 
 HTTP 报文大致可分为报文首部和报文主体两块。两者由最初出现的空行（CR+LF）来划分。通常，并不一定要有报文主体。
 
@@ -125,7 +125,7 @@ HTTP/1.1 中存在一种称为传输编码（Transfer Coding）的机制，它�
   
   ```
 
-## Reference
+## References
 
-- [What exactly is an HTTP Entity?](https://stackoverflow.com/questions/9197745/what-exactly-is-an-http-entity)
+- [Stack Overflow - What exactly is an HTTP Entity?](https://stackoverflow.com/questions/9197745/what-exactly-is-an-http-entity)
 

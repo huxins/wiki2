@@ -115,7 +115,7 @@ CentOS-7-x86_64-DVD-2009.iso
 
   服务器通过此字段告知客户端返回的 Body 信息的语言是什么。
 
-## Reference
+## References
 
 - [聊一聊 HTTP 的 Range, Content-Range](https://dabing1022.github.io/2016/12/24/%E8%81%8A%E4%B8%80%E8%81%8AHTTP%E7%9A%84Range,%20Content-Range/)
 

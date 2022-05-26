@@ -26,11 +26,12 @@ Connection: keep-alive
 
 ## Pipelining
 
-持久连接使得多数请求以管线化（pipelining）方式发送成为可能。从前发送请求后需等待并收到响应，才能发送下一个请求。管线化技术出现后，不用等待响应亦可直接发送下一个请求。
+持久连接使得多数请求以管线化（pipelining）方式发送成为可能。从前发送请求后需等待并收到响应，才能发送下一个请求。管线化技术出现后，不用等待响应亦可直接发送下一个请求。这样就能够做到同时并行发送多个请求，而不需要一个接一个地等待响应了。
 
-这样就能够做到同时并行发送多个请求，而不需要一个接一个地等待响应了。
+HTTP 流水线在现代浏览器中并不是默认被启用的。
 
-## Reference
+## References
 
 - [RFC 2616 - Connections](https://tools.ietf.org/html/rfc2616#section-8)
+- [MDN - HTTP/1.x 的连接管理](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Connection_management_in_HTTP_1.x)
 
