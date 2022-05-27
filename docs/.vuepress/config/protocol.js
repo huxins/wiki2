@@ -9,6 +9,8 @@ const http = [
     '/protocol/http/http-connections',
     '/protocol/http/http-headers',
     '/protocol/http/http-cookies',
+    '/protocol/http/http-range-requests',
+    '/protocol/http/http-semantics-and-content',
     '/protocol/http/http-status-code'
 ]
 
