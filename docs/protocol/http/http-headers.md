@@ -25,15 +25,11 @@
 - [Entity Header Fields](https://tools.ietf.org/html/rfc2616#section-7.1)
   - 针对请求报文和响应报文的实体部分使用的首部。补充了资源内容更新时间等与实体有关的信息。
 
-## End-to-end and Hop-by-hop
-
-HTTP 首部字段将定义成缓存代理和非缓存代理的行为，分成 2 种类型。
-
-### End-to-end Header
+## End-to-end Header
 
 分在此类别中的首部会转发给请求和响应对应的最终接收目标，且必须保存在由缓存生成的响应中，另外规定它必须被转发。
 
-### Hop-by-hop Header
+## Hop-by-hop Header
 
 分在此类别中的首部只对单次转发有效，会因通过缓存或代理而不再转发。HTTP/1.1 和之后版本中，如果要使用 hop-by-hop 首部，需提供 Connection 首部字段。
 
