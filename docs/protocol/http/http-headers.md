@@ -33,6 +33,14 @@
 
 分在此类别中的首部只对单次转发有效，会因通过缓存或代理而不再转发。HTTP/1.1 和之后版本中，如果要使用 hop-by-hop 首部，需提供 Connection 首部字段。
 
+## General Header Fields
+
+### Date
+
+- RFC7231: [Date/Time Formats](https://tools.ietf.org/html/rfc7231#section-7.1.1.1)
+- RFC2616: [Full Date](https://tools.ietf.org/html/rfc2616#section-3.3.1)
+
+
 ## References
 
 - [MDN - HTTP Headers](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers)
