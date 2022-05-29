@@ -38,6 +38,7 @@ http://detectportal.firefox.com/success.txt
 http://204.ustclug.org
 http://www.g.cn/generate_204
 http://www.gstatic.com/generate_204
+http://www.google-analytics.com/generate_204
 http://connect.rom.miui.com/generate_204
 http://wifi.vivo.com.cn/generate_204
 http://connectivitycheck.platform.hicloud.com/generate_204

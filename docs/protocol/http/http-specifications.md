@@ -16,4 +16,5 @@ HTTP/1.1 由以下规范定义：
 ## References
 
 - [GitHub - HTTP-RFCs.zh-cn](https://github.com/duoani/HTTP-RFCs.zh-cn)
+- [HTTP 协议各版本特性](https://mjd507.github.io/2018/01/20/HTTP-Versions/)
 

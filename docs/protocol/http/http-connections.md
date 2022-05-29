@@ -39,7 +39,6 @@ HTTP 流水线在现代浏览器中并不是默认被启用的。
 
 ## References
 
-- [RFC 2616 - Connections](https://tools.ietf.org/html/rfc2616#section-8)
 - [MDN - HTTP/1.x 的连接管理](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Connection_management_in_HTTP_1.x)
 - [MDN - Connection](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/Connection)
 

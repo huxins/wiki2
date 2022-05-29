@@ -127,5 +127,6 @@ HTTP/1.1 中存在一种称为传输编码（Transfer Coding）的机制，它�
 
 ## References
 
-- [Stack Overflow - What exactly is an HTTP Entity?](https://stackoverflow.com/questions/9197745/what-exactly-is-an-http-entity)
+- [Stack Overflow - What exactly is an HTTP Entity](https://stackoverflow.com/questions/9197745/what-exactly-is-an-http-entity)
+- [知乎 - HTTP 报文和实体的差别](https://www.zhihu.com/question/263752229)
 
