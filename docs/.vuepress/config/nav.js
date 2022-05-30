@@ -17,6 +17,15 @@ const nav = [
     ]
   },
   {
+    text: 'Operating System',
+    items: [
+      {
+        text: 'Red Hat',
+        link: '/operating-system/red-hat/'
+      }
+    ]
+  },
+  {
     text: 'Protocol',
     items: [
       {
