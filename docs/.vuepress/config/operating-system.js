@@ -1,4 +1,4 @@
-const operating_system = [
+const red_hat = [
     '/operating-system/red-hat/rpm',
     '/operating-system/red-hat/yum'
 ]
