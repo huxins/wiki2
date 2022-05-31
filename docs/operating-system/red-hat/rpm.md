@@ -35,6 +35,7 @@ RPM 包由文件和元数据的存档组成。元数据包括帮助脚本、文�
 
 - `-i`：显示包信息，包括名称、版本和描述。
 - `-l`：列出包中的文件。
+- `-R`：列出此包所依赖的功能。
 
 ## Common commands
 
@@ -42,6 +43,7 @@ RPM 包由文件和元数据的存档组成。元数据包括帮助脚本、文�
 - `rpm -qa`：查看所有已安装的软件包。
 - `rpm -qi <package-file>`：显示包信息，包括名称、版本和描述。
 - `rpm -qf <file>`：查询拥有指定文件的套件。
+- `rpm -qR <package-file>`：列出此包所依赖的功能。
 - `rpm -ivh <package-file>`：安装 `.rpm`。
 - `rpm -Uvh <package-file>`：更新 `.rpm`。
 

@@ -23,6 +23,7 @@ module.exports = {
       '/tools/maven/': tools.maven,
       '/tools/postgresql/': tools.postgresql,
       '/tools/util/': tools.util,
+      '/operating-system/linux/': operating_system.linux,
       '/operating-system/red-hat/': operating_system.red_hat,
       '/protocol/generic-syntax/': protocol.generic_syntax,
       '/protocol/http/': protocol.http,
