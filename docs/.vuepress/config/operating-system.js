@@ -1,4 +1,5 @@
 const linux = [
+    '/operating-system/linux/coreutils',
     '/operating-system/linux/user-management'
 ]
 
