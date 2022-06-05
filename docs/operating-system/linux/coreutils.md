@@ -43,6 +43,26 @@ $ ls -option filename
 
 `group` 属性可用于授予队友或协作者对所有者的文件和目录的共享访问权限，并提供一种方便的方式来授予多个用户访问权限。
 
+### `chown`: Change file owner and group
+
+更改与 `file1` 关联的 user/owner
+
+```sh
+$ chown user02 file1
+```
+
+更改与 `file1` 关联的 group
+
+```sh
+$ chown :groupA file1
+```
+
+同时更改 `file2` 的 owner 和 group
+
+```sh
+$ chown user02:groupA file2
+```
+
 ### `chmod`: Change access permissions
 
 要更改文件和目录权限，请使用命令 `chmod` (change mode)。文件的所有者可以通过添加 `+` 或减去 `-` 读取、写入和执行权限来更改用户 `u`、组 `g` 或其他 `o` 的权限。
@@ -144,8 +164,9 @@ Umask   Created Files       Created Directories
 
 ## References
 
-- [GNU Coreutils](https://www.gnu.org/software/coreutils/manual/html_node/index.html)
+- [GNU - Coreutils](https://www.gnu.org/software/coreutils/manual/html_node/index.html)
 - [Stack Exchange - File permissions: kernel or file system](https://unix.stackexchange.com/questions/443318/file-permissions-kernel-or-file-system)
 - [Stack Exchange - Linux Kernel: uid and gid vs /etc/passwd](https://unix.stackexchange.com/questions/61408/linux-kernel-uid-and-gid-vs-etc-passwd)
 - [Knowledge Base - Manage file permissions on Unix-like systems](https://kb.iu.edu/d/abdb)
+- [Section - User Groups and Permissions in Linux](https://www.section.io/engineering-education/user-groups-and-permissions-linux/)
 

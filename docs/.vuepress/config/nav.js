@@ -17,6 +17,15 @@ const nav = [
     ]
   },
   {
+    text: 'Utils',
+    items: [
+      {
+        text: 'Git',
+        link: '/utils/git/'
+      }
+    ]
+  },
+  {
     text: 'Operating System',
     items: [
       {

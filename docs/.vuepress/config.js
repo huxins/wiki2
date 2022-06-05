@@ -1,6 +1,7 @@
 const nav = require('./config/nav')
 
 const tools = require('./config/tools')
+const utils = require('./config/utils')
 const operating_system = require('./config/operating-system')
 const protocol = require('./config/protocol')
 const java = require('./config/java')
@@ -23,6 +24,7 @@ module.exports = {
       '/tools/maven/': tools.maven,
       '/tools/postgresql/': tools.postgresql,
       '/tools/util/': tools.util,
+      '/utils/git/': utils.git,
       '/operating-system/linux/': operating_system.linux,
       '/operating-system/red-hat/': operating_system.red_hat,
       '/protocol/generic-syntax/': protocol.generic_syntax,
