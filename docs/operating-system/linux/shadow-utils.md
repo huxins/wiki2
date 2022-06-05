@@ -1,4 +1,4 @@
-# User Management
+# Shadow-utils
 
 ## Understand the /etc/passwd file
 
@@ -75,22 +75,6 @@ username:password:last password change:min:max:warning:inactive:expired:reserved
   - `passwd -x <maxdays> <username>`：设置最长密码生命周期。
   - `passwd -w <warndays> <username>`：设置密码过期警告的提前天数。
   - `passwd -i <inactivedays> <username>`：密码有效期内非活动状态达到多少天应被禁用。
-
-## Managing file permissions
-
-类 Unix 操作系统，如 Linux，使用权限管理来确定谁可以访问和修改存储在其文件系统中的文件和目录，文件系统中的每个文件和目录都分配有 `owner` 和 `group` 属性。
-
-默认情况下，创建文件或目录的用户被设置为该文件或目录的所有者，需要时，系统的 root 管理员可以更改文件和目录的用户属性。
-
-`group` 属性可用于授予队友或协作者对所有者的文件和目录的共享访问权限，并提供一种方便的方式来授予多个用户访问权限。
-
-
-
-当用户创建文件时，用户所有者获得读取 (r) 和写入 (w) 权限，组获得读取权限，其他人获得读取权限 (rw-r--r--)，或者用数字表示，644。默认情况下不提供执行 (x) 权限。因此，作为系统管理员，如果组成员请求将执行权限放在一个文件或一组文件上，则仅授予该组的执行权限：
-
-```sh
-$ chmod g+x coolscript.sh
-```
 
 ## References
 

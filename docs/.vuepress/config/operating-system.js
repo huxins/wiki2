@@ -1,6 +1,6 @@
 const linux = [
     '/operating-system/linux/coreutils',
-    '/operating-system/linux/user-management'
+    '/operating-system/linux/shadow-utils'
 ]
 
 const red_hat = [
