@@ -8,7 +8,7 @@
 $ yum install subversion
 ```
 
-## Server Configuration
+## The svnserve Server
 
 配置文件在存储库的 `conf` 目录。
 
@@ -56,5 +56,39 @@ g_admin = admin,thinker
 [library:/]
 @g_admin = rw
 * = r
+```
+
+## The Apache HTTP Server
+
+安装 Apache 服务：
+
+- RHEL: `yum install httpd mod_dav_svn`
+
+创建配置文件 `/etc/httpd/conf.d/subversion.conf`：
+
+```xml
+LoadModule dav_svn_module     modules/mod_dav_svn.so
+LoadModule authz_svn_module   modules/mod_authz_svn.so
+<Location /svn>
+    DAV svn
+    SVNParentPath /var/www/svn
+    AuthType Basic
+    AuthName "Authorization SVN"
+    AuthzSVNAccessFile /var/www/svn/authz
+    AuthUserFile /var/www/svn/passwd
+    Require valid-user
+</Location>
+```
+
+密码管理：
+
+```sh
+$ htpasswd -c -m /var/www/svn/passwd huxins
+```
+
+权限：
+
+```sh
+$ chown -R apache:apache /var/www/svn
 ```
 
