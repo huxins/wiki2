@@ -25,6 +25,7 @@ module.exports = {
       '/tools/postgresql/': tools.postgresql,
       '/tools/util/': tools.util,
       '/utils/git/': utils.git,
+      '/utils/subversion/': utils.subversion,
       '/operating-system/linux/': operating_system.linux,
       '/operating-system/red-hat/': operating_system.red_hat,
       '/protocol/generic-syntax/': protocol.generic_syntax,

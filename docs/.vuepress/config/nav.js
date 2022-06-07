@@ -22,6 +22,10 @@ const nav = [
       {
         text: 'Git',
         link: '/utils/git/'
+      },
+      {
+        text: 'Subversion',
+        link: '/utils/subversion/'
       }
     ]
   },
