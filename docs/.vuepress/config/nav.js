@@ -51,7 +51,7 @@ const nav = [
         ]
       }
     ]
-  }
+  },
   {
     text: 'Protocol',
     items: [
