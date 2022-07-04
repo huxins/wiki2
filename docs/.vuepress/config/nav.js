@@ -7,10 +7,6 @@ const nav = [
         link: '/tools/maven/'
       },
       {
-        text: 'PostgreSQL',
-        link: '/tools/postgresql/'
-      },
-      {
         text: 'Util',
         link: '/tools/util/'
       }
@@ -42,6 +38,20 @@ const nav = [
       }
     ]
   },
+  {
+    text: 'Database',
+    items: [
+      {
+        text: '关系型数据库',
+        items: [
+          {
+            text: 'PostgreSQL',
+            link: '/database/postgresql/'
+          }
+        ]
+      }
+    ]
+  }
   {
     text: 'Protocol',
     items: [

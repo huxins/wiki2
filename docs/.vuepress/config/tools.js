@@ -11,9 +11,7 @@ const maven = [
     '/tools/maven/maven-archetypes'
 ]
 
-const postgresql = [
-    '/tools/postgresql/postgresql-install'
-]
+
 
 const util = [
     '/tools/util/vuepress',
@@ -22,6 +20,5 @@ const util = [
 
 module.exports = {
     maven,
-    postgresql,
     util
 }

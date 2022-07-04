@@ -3,6 +3,7 @@ const nav = require('./config/nav')
 const tools = require('./config/tools')
 const utils = require('./config/utils')
 const operating_system = require('./config/operating-system')
+const database = require('./config/database')
 const protocol = require('./config/protocol')
 const java = require('./config/java')
 const node = require('./config/node')
@@ -22,12 +23,12 @@ module.exports = {
     nav: nav.nav,
     sidebar:{
       '/tools/maven/': tools.maven,
-      '/tools/postgresql/': tools.postgresql,
       '/tools/util/': tools.util,
       '/utils/git/': utils.git,
       '/utils/subversion/': utils.subversion,
       '/operating-system/linux/': operating_system.linux,
       '/operating-system/red-hat/': operating_system.red_hat,
+      '/database/postgresql/': database.postgresql,
       '/protocol/generic-syntax/': protocol.generic_syntax,
       '/protocol/http/': protocol.http,
       '/java/jdk/': java.jdk,
