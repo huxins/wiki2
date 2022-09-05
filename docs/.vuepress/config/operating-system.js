@@ -5,8 +5,7 @@ const linux = [
 ]
 
 const red_hat = [
-    '/operating-system/red-hat/rpm',
-    '/operating-system/red-hat/yum'
+    '/operating-system/red-hat/rpm'
 ]
 
 module.exports = {
