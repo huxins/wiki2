@@ -66,19 +66,6 @@ const nav = [
     ]
   },
   {
-    text: 'Java',
-    items: [
-      {
-        text: 'JDK',
-        link: '/java/jdk/'
-      },
-      {
-        text: 'Servlet',
-        link: '/java/servlet/'
-      }
-    ]
-  },
-  {
     text: 'Node',
     items: [
       {

@@ -5,7 +5,6 @@ const utils = require('./config/utils')
 const operating_system = require('./config/operating-system')
 const database = require('./config/database')
 const protocol = require('./config/protocol')
-const java = require('./config/java')
 const node = require('./config/node')
 
 module.exports = {
@@ -31,8 +30,6 @@ module.exports = {
       '/database/postgresql/': database.postgresql,
       '/protocol/generic-syntax/': protocol.generic_syntax,
       '/protocol/http/': protocol.http,
-      '/java/jdk/': java.jdk,
-      '/java/servlet/': java.servlet,
       '/node/environment/': node.environment
     }
   }
