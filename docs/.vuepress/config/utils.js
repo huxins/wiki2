@@ -1,6 +1,5 @@
 const git = [
-    '/utils/git/installing-git',
-    '/utils/git/gitea'
+    '/utils/git/installing-git'
 ]
 
 const subversion = [
