@@ -31,10 +31,6 @@ const nav = [
       {
         text: 'Linux',
         link: '/operating-system/linux/'
-      },
-      {
-        text: 'Red Hat',
-        link: '/operating-system/red-hat/'
       }
     ]
   },
